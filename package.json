@@ -2,9 +2,10 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "practicing DOM manipulation by dynamically rendering a simple restaurant homepage",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
