@@ -1,4 +1,38 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;  
+}
+
+body {
+  background: url('./cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  /* color: coral; */
+  /* background: url('./restaurant.jpg'); */
+  
+}
+
+.header {
+  margin-top: 25%;
+  font-size: 80px;
+  font-weight: 900;
+  color: coral;
+}
+
+.home-p {
+  background-color: bisque;
+  opacity: 0.8;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
 }
