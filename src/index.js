@@ -1,7 +1,10 @@
-import {loadHome} from './home.js';
+import { loadHome } from './home.js';
 import './style.css';
+import { nav } from './navigation';
 
-// return content;
 
-document.addEventListener('load', loadHome());
+document.addEventListener('DOMContentLoaded', () => {
+  loadHome();
+  nav();
+});
 

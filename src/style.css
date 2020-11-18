@@ -14,9 +14,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  /* color: coral; */
-  /* background: url('./restaurant.jpg'); */
-  
 }
 
 .header {
@@ -33,6 +30,29 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 20px;
-  font-size: 20px;
+  font-size: 22px;
   border-radius: 5px;
+  margin-top: 40px;
+  line-height: 2;
+}
+
+.navbar {  
+  background-color: bisque;
+  opacity: 0.7;
+  padding-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  border-bottom: 5px solid coral;
+  cursor: pointer;  
 }

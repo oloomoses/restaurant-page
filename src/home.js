@@ -4,7 +4,7 @@ export const loadHome = () => {
   const content = document.querySelector('.content');
   const h1 = document.createElement('h1');
   h1.classList.add('header');
-  h1.innerHTML = 'Welcome to Our Restaurant';
+  h1.innerHTML = 'Welcome to MuzzArt Restaurant';
   const homeParagraph = document.createElement('p');
   homeParagraph.classList.add('home-p');
   homeParagraph.innerHTML = `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, deleniti dolores!
