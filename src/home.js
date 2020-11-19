@@ -1,4 +1,4 @@
-import CoverImage from './restaurant.jpg';
+import CoverImage from './images/restaurant.jpg';
 
 export const loadHome = () => {
   const content = document.querySelector('.content');
