@@ -5,8 +5,9 @@ import { menu } from './menu.js';
 
 
 document.addEventListener('DOMContentLoaded', () => {
+  nav();
   // loadHome();
   menu()
-  nav();
+  
 });
 

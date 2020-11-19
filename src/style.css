@@ -63,13 +63,31 @@ body {
 }
 
 .item {
-  width: 250px;
+  width: 230px;
   background-color: bisque;
   opacity: 0.8;
-  margin: 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .food-image {
   margin-top: 30px;
   max-width: 200px;
+}
+
+.sub-header {
+  color: coral;
+  font-size: 25px;
+  margin: 10px;
+}
+
+/* .food {
+  float: left;
+} */
+
+.price {
+  float: right;
 }

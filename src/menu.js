@@ -37,45 +37,45 @@ item7Img.classList.add('food-image')
 
 const menuItems = [
   {
-    itemName: 'this',
-    price: '$10',
+    itemName: 'Beef Vegetables',
+    price: '$3',
     itemImg: item1Img
   },
 
   {
-    itemName: 'this',
-    price: '$10',
+    itemName: 'Fried Chicken',
+    price: '$5',
     itemImg: item2Img
   },
   
   {
-    itemName: 'this',
-    price: '$10',
+    itemName: 'Chrizo',
+    price: '$16',
     itemImg: item3Img
   },
   
   {
-    itemName: 'this',
-    price: '$10',
+    itemName: 'Coffee',
+    price: '$2',
     itemImg: item4Img
   },
   
   {
-    itemName: 'this',
-    price: '$10',
-    itemImg: item5Img
+    itemName: 'Samosas',
+    price: '$1',
+    itemImg: item7Img
   },
   
   {
-    itemName: 'this',
-    price: '$10',
+    itemName: 'Sausage',
+    price: '$1',
     itemImg: item6Img
   },
   
   {
-    itemName: 'this',
-    price: '$10',
-    itemImg: item7Img
+    itemName: 'Milk',
+    price: '$1.5',    
+    itemImg: item5Img
   },
 ]
 
@@ -83,6 +83,12 @@ export const menu = () => {
   const content = document.querySelector('.content');
   const div = document.createElement('div');
   div.classList.add('items-container');
+
+  const h2 = document.createElement('h2');
+  h2.classList.add('sub-header');
+  h2.innerHTML = 'Our Suggested Menu';
+
+  content.appendChild(h2);
   
 
   menuItems.forEach((item) => {  
