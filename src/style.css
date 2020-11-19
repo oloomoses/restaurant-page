@@ -56,3 +56,20 @@ body {
   border-bottom: 5px solid coral;
   cursor: pointer;  
 }
+
+.items-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.item {
+  width: 250px;
+  background-color: bisque;
+  opacity: 0.8;
+  margin: 20px;
+}
+
+.food-image {
+  margin-top: 30px;
+  max-width: 200px;
+}
