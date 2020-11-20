@@ -98,3 +98,18 @@ Distributed under the MIT License.
 * [Microverse Education](https://microverse.org)
 * [ODIN Project](https://www.theodinproject.com/)
 * [GitHub](https://github.com/)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors-anon/300ms/rails-capstone-project?color=1
+[contributors-url]: https://github.com/300ms/rails-capstone-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/300ms/rails-capstone-project
+[forks-url]: https://github.com/300ms/rails-capstone-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/300ms/rails-capstone-project
+[stars-url]: https://github.com/300ms/rails-capstone-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/300ms/rails-capstone-project
+[issues-url]: https://github.com/300ms/rails-capstone-project/issues
+[license-shield]: https://img.shields.io/github/license/300ms/rails-capstone-project
+[license-url]: https://github.com/300ms/rails-capstone-project/blob/readme-rubocop/LICENSE
+[product-screenshot]: images/screenshot.png
