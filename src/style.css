@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 body {
@@ -36,7 +36,7 @@ body {
   line-height: 2;
 }
 
-.navbar {  
+.navbar {
   background-color: bisque;
   opacity: 0.7;
   padding-right: 300px;
@@ -54,7 +54,7 @@ body {
 
 .nav-item:hover {
   border-bottom: 5px solid coral;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .items-container {

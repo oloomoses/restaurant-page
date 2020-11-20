@@ -1,4 +1,4 @@
-function form(){
+function form() {
   const form = document.createElement('form');
   const child = `
   <label class = 'label'>Enter your name</label><br>
@@ -10,13 +10,13 @@ function form(){
   <textarea class = 'textarea'></textarea>
 
   <button type = 'submit' class = 'submit'>Submit</submit>
-  `
+  `;
 
   form.innerHTML = child;
-  return form
+  return form;
 }
 
-export const contact = () => {
+const contact = () => {
   const content = document.querySelector('.content');
   const div = document.createElement('div');
   div.classList.add('form-area');
@@ -30,5 +30,6 @@ export const contact = () => {
 
   content.appendChild(div);
   return content;
+};
 
-}
+export { contact as default };

@@ -1,4 +1,4 @@
-export const nav = () => {
+const nav = () => {
   const div = document.createElement('div');
   div.classList.add('navbar');
 
@@ -19,9 +19,10 @@ export const nav = () => {
   div.appendChild(contact);
 
 
-  const content = document.querySelector('.content')
+  const content = document.querySelector('.content');
   const body = document.querySelector('body');
 
   return body.insertBefore(div, content);
-  
-}
+};
+
+export { nav as default };

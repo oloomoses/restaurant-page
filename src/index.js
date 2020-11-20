@@ -1,8 +1,8 @@
-import { loadHome } from './home.js';
+import loadHome from './home';
 import './style.css';
-import { nav } from './navigation';
-import { menu } from './menu.js'
-import { contact } from './contact.js';
+import nav from './navigation';
+import menu from './menu';
+import contact from './contact';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,17 +11,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('click', (e) => {
-  let content = document.querySelector('.content');
-  if(e.target.classList.contains('home-nav')){
+  const content = document.querySelector('.content');
+  if (e.target.classList.contains('home-nav')) {
     content.innerHTML = '';
     loadHome();
-  }else if(e.target.classList.contains('menu-nav')){
+  } else if (e.target.classList.contains('menu-nav')) {
     content.innerHTML = '';
     menu();
-  }else if(e.target.classList.contains('contact-nav')){
+  } else if (e.target.classList.contains('contact-nav')) {
     content.innerHTML = '';
     contact();
   }
-
 });
-
